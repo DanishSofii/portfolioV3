@@ -27,7 +27,7 @@ function AboutComponent() {
         </div>
         <div className="flex justify-center md:justify-around items-center p-5 pt-20 ">
             <div>
-            <h1 className=" text-slate-50 sm:text-8xl "><span className=" text-green-500 font-bold">Danish Bashir
+            <h1 className=" text-slate-50 text-3xl sm:text-7xl md:text-6xl "><span className=" text-green-500 font-bold">Danish Bashir
               </span></h1>
               <h2 className=" font-bold font-lg text-slate-300 mb-12">
                 I am a <span className="text-orange-500">
@@ -40,7 +40,7 @@ function AboutComponent() {
               />
                 </span>
               </h2>
-              <button className=" bg-green-400 h-6 w-[5rem] text-sm sm:text-lg sm:h-8 rounded-sm outline-none border-none " onClick={downloadResume}>Resume</button>
+              <button className=" bg-green-400 h-5 w-[4rem] text-[10px] sm:text-[12px] sm:h-6 rounded-sm outline-none border-none " onClick={downloadResume}>Resume</button>
             </div>
             <div>
                 <img className="imgbrd h-[20rem] w-[20rem] rounded-[50%] bg-purple-400 bg-opacity-40 hidden md:block lg:block"  src={dpimg} alt="" />

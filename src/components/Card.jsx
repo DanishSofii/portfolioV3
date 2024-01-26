@@ -17,7 +17,7 @@ function Card({ imageSrc, title, description, links }) {
               key={index}
               href={link.url}
               target='_blank'
-              className="  text-white  flex justify-center items-center text-slate-900 text-lg hover:text-orange-400 "
+              className="    flex justify-center items-center text-slate-900 text-lg hover:text-orange-400 "
             >
                 <FontAwesomeIcon icon={link.icon} className="mr-2" />
               {/* {link.text} */}

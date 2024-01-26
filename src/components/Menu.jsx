@@ -22,27 +22,27 @@ const Menu = () => {
         className="text-white focus:outline-none"
         onClick={toggleMenu}
       >
-        <FontAwesomeIcon className='text-xl' icon={faBars} />
+        <FontAwesomeIcon className='text-xl hover:text-orange-500' icon={faBars} />
       </button>
       {isMenuOpen && (
         <div className="absolute bg-gray-800 p-4 mt-2 w-48 ">
           <ul>
-            <li className="text-white h-8 border-b border-b-slate-500 mb-4">
+            <li className="text-white h-8 border-b border-b-slate-500 mb-4 hover:border-b-orange-400">
               <Link to="about" smooth={true} duration={500} offset={-50} onClick={handleItemClick}>
                 About
               </Link>
             </li>
-            <li className="text-white h-8 border-b border-b-slate-500 mb-4">
+            <li className="text-white h-8 border-b border-b-slate-500 mb-4 hover:border-b-orange-400">
               <Link to="skills" smooth={true} duration={500} offset={-50} onClick={handleItemClick}>
                 Skills
               </Link>
             </li>
-            <li className="text-white h-8 border-b border-b-slate-500 mb-4">
+            <li className="text-white h-8 border-b border-b-slate-500 mb-4 hover:border-b-orange-400">
               <Link to="projects" smooth={true} duration={500} offset={-50} onClick={handleItemClick}>
                 Projects
               </Link>
             </li>
-            <li className="text-white h-8 border-b border-b-slate-500 mb-4">
+            <li className="text-white h-8 border-b border-b-slate-500 mb-4 hover:border-b-orange-400">
               <Link to="contact" smooth={true} duration={500} offset={-50} onClick={handleItemClick}>
                 Contact
               </Link>

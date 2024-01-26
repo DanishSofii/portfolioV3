@@ -22,40 +22,40 @@ function Projects() {
     {   
       id: 2,
       imageSrc: img2,
-      title: "Card 2 Title",
-      description: "This is the description for Card 2.",
+      title: "Eat n Split",
+      description: " Friends can split easily; Created using React JS  ",
       links: [
-        { text: 'GitHub', url: 'https://github.com/DanishSofii/DBMS-Project', icon: faGithub },
-        { text: 'Visit', url: 'https://example.com/link-b',icon: faArrowAltCircleRight }
+        { text: 'GitHub', url: 'https://github.com/DanishSofii/pizza-menu', icon: faGithub },
+        { text: 'Visit', url: 'https://eatsplit-dun.vercel.app/',icon: faArrowAltCircleRight }
       ]
     },
     {
       id: 3,
       imageSrc: img3,
-      title: "Card 2 Title",
-      description: "This is the description for Card 2.",
+      title: "Weather APP",
+      description: "Weather monitoring app using EJS css and JS.",
       links: [
-        { text: 'GitHub', url: 'https://github.com/DanishSofii/DBMS-Project', icon: faGithub },
+        { text: 'GitHub', url: 'https://github.com/DanishSofii/Weather-App', icon: faGithub },
         { text: 'Visit', url: 'https://example.com/link-b',icon: faArrowAltCircleRight }
       ]
     },
     {
       id: 4,
       imageSrc: img4,
-      title: "Card 2 Title",
-      description: "This is the description for Card 2.",
+      title: "TO-DO List Master",
+      description: "App for managing daily tasks easily with HTML CSS and JS.",
       links: [
-        { text: 'GitHub', url: 'https://github.com/DanishSofii/DBMS-Project', icon: faGithub },
-        { text: 'Visit', url: 'https://example.com/link-b',icon: faArrowAltCircleRight }
+        { text: 'GitHub', url: 'https://github.com/DanishSofii/To-Do-List', icon: faGithub },
+        { text: 'Visit', url: 'https://main--tangerine-custard-d73e19.netlify.app/',icon: faArrowAltCircleRight }
       ]
     },
     {
       id: 5,
       imageSrc: img5,
-      title: "Card 2 Title",
-      description: "This is the description for Card 2.",
+      title: "Calculator",
+      description: "A basic Calculator using HTML, CSS and JS",
       links: [
-        { text: 'GitHub', url: 'https://github.com/DanishSofii/DBMS-Project', icon: faGithub },
+        { text: 'GitHub', url: 'https://github.com/DanishSofii/Calculator', icon: faGithub },
         { text: 'Visit', url: 'https://example.com/link-b',icon: faArrowAltCircleRight }
       ]
     },
