@@ -2,7 +2,7 @@ const skills = ["HTML","CSS","JavaScript","React JS","Node JS","Express JS","MyS
 
 function Skills() {
     return (
-        <div id="skills" className=" bg-slate-900 h-[70vh] md:h-[50vh] p-[2rem] md:p-[3rem] lg:p-[8rem] flex justify-center items-center flex-col">
+        <div id="skills" className=" bg-slate-900 h-[55vh] md:h-[50vh] p-[2rem] md:p-[3rem] lg:p-[8rem] flex justify-center items-center flex-col">
             <h1 className="text-slate-50">SKILLS</h1>
             <div>
                 <ul className="flex justify-around align-center flex-wrap" >

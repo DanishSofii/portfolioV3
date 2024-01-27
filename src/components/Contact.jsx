@@ -1,6 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from 'emailjs-com';
 const Contact = () => {
+  const [successMessage, setSuccessMessage] = useState(null);
+  const [errorMessage, setErrorMessage] = useState(null);
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -16,9 +19,19 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setSuccessMessage("Message sent successfully!");
+          setErrorMessage(null);
+          setTimeout(() => {
+            setSuccessMessage(null); // Clear success message after 5 seconds
+          }, 5000);
         },
         (error) => {
           console.log(error.text);
+          setSuccessMessage(null); // Clear any previous success messages
+          setErrorMessage("Error sending message. Please try again.");
+          setTimeout(() => {
+            setErrorMessage(null); // Clear error message after 5 seconds
+          }, 5000);
         }
       );
     e.target.reset();
@@ -61,7 +74,18 @@ const Contact = () => {
             <button type="submit" className="btn btn-lg bg-slate-600 text-slate-100 h-10 w-40 rounded-sm hover:scale-105 transition-all hover:border border-slate-100">
               Send
             </button>
+            {successMessage && (
+            <div className="bg-green-500 text-white p-4 rounded-md mt-4">
+              {successMessage}
+            </div>
+          )}
+           {errorMessage && (
+            <div className="bg-red-500 text-white p-4 rounded-md mt-4">
+              {errorMessage}
+            </div>
+          )}
           </form>
+          
         </div>
       </div>
     </section>

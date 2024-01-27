@@ -16,7 +16,7 @@ function AboutComponent() {
   return (
     <div
     id="about"
-      className=" bg-cover bg-center h-[50vh] md:h-screen"
+      className=" bg-cover bg-center h-[35vh] md:h-[85vh]"
       style={{ backgroundImage: `url(${bgimg})` }}
     >
       <div>
@@ -27,7 +27,7 @@ function AboutComponent() {
         </div>
         <div className="flex justify-center md:justify-around items-center p-5 pt-20 ">
             <div>
-            <h1 className=" text-slate-50 text-3xl sm:text-7xl md:text-6xl "><span className=" text-green-500 font-bold">Danish Bashir
+            <h1 className=" text-slate-50 text-3xl sm:text-5xl md:text-6xl "><span className=" text-green-500 font-bold">Danish Bashir
               </span></h1>
               <h2 className=" font-bold font-lg text-slate-300 mb-12">
                 I am a <span className="text-orange-500">
