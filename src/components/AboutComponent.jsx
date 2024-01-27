@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import bgimg from "../images/aboutbg.webp";
-import dpimg from "../images/dp.png"
+import dpimg from "../images/dp.webp"
 import Menu from "./Menu";
 function AboutComponent() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
