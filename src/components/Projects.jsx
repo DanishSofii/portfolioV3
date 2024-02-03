@@ -27,7 +27,7 @@ function Projects() {
       description: "Blogging website (FullStack) created using React js, Express js, MySql, Tailwind CSS.",
       links: [
         { text: 'GitHub', url: 'https://github.com/DanishSofii/Blog-Website', icon: faGithub },
-        { text: 'Visit', url: 'nebula-pink-psi.vercel.app',icon: faArrowAltCircleRight }
+        { text: 'Visit', url: 'https://nebula-pink-psi.vercel.app/',icon: faArrowAltCircleRight }
       ]
     },
     {   
