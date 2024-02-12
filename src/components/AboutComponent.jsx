@@ -9,7 +9,7 @@ function AboutComponent() {
     setIsMenuOpen(!isMenuOpen);
   };
   const downloadResume =() =>{
-    const resumeFilePath = "https://drive.google.com/file/d/1Ctr7daTh09lQ9CNfjQfkWggjUZ-q1z1a/view?usp=drive_link";
+    const resumeFilePath = "https://drive.google.com/file/d/10K7L65rqxaNogDYrM49Z7LbZfbfo1pn-/view?usp=drive_link";
     window.open(resumeFilePath, '_blank'); 
   }
 
