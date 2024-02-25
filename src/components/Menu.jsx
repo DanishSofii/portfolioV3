@@ -43,6 +43,11 @@ const Menu = () => {
               </Link>
             </li>
             <li className="text-white h-8 border-b border-b-slate-500 mb-4 hover:border-b-orange-400">
+              <Link to="socials" smooth={true} duration={500} offset={-50} onClick={handleItemClick}>
+                Socials
+              </Link>
+            </li>
+            <li className="text-white h-8 border-b border-b-slate-500 mb-4 hover:border-b-orange-400">
               <Link to="contact" smooth={true} duration={500} offset={-50} onClick={handleItemClick}>
                 Contact
               </Link>

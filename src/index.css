@@ -13,7 +13,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.gradient-border {
 
+  border-width: 1px; /* Adjust the border width as needed */
+  border-style: solid;
+  border-image: linear-gradient(to right, #ff8a00,#01ccff, #e52e71, #006aff); /* Adjust gradient colors */
+  border-image-slice: 1; /* Make the whole border area covered by the gradient */
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
