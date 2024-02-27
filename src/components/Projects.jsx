@@ -6,7 +6,7 @@ import img4 from "../images/img4.webp";
 import img5 from "../images/img5.webp";
 import img6 from "../images/img6.webp";
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowAltCircleRight, faFileVideo } from '@fortawesome/free-solid-svg-icons';
 
 function Projects() {
   const cardDataArray = [
@@ -17,7 +17,8 @@ function Projects() {
       description: "LMS (FullStack) built from scratch using EJS, CSS, Express JS , MySql to manage the books in library online.",
       links: [
         { text: 'GitHub', url: 'https://github.com/DanishSofii/DBMS-Project', icon: faGithub },
-        { text: 'Visit', url: 'https://example.com/link-b',icon: faArrowAltCircleRight }
+        { text: 'Visit', url: 'https://example.com/link-b',icon: faArrowAltCircleRight },
+        {text: 'Video' ,  url:"https://drive.google.com/file/d/16DO_iHI72ahgFcJWYs1ayv5gAqkGTDof/view?usp=sharing",icon: faFileVideo}
       ]
     },
     {
@@ -27,7 +28,8 @@ function Projects() {
       description: "Blogging website (FullStack) created using React js, Express js, MySql, Tailwind CSS.",
       links: [
         { text: 'GitHub', url: 'https://github.com/DanishSofii/Blog-Website', icon: faGithub },
-        { text: 'Visit', url: 'https://nebula-pink-psi.vercel.app/',icon: faArrowAltCircleRight }
+        { text: 'Visit', url: 'https://nebula-pink-psi.vercel.app/',icon: faArrowAltCircleRight },
+        {text: 'Video' ,  url:"https://drive.google.com/file/d/1v2MdRrfFBdXzbnmCVkKud2iU6zttpsjJ/view?usp=sharing",icon: faFileVideo}
       ]
     },
     {   
@@ -37,7 +39,8 @@ function Projects() {
       description: " Friends can split easily; Created using React JS  ",
       links: [
         { text: 'GitHub', url: 'https://github.com/DanishSofii/pizza-menu', icon: faGithub },
-        { text: 'Visit', url: 'https://eatsplit-dun.vercel.app/',icon: faArrowAltCircleRight }
+        { text: 'Visit', url: 'https://eatsplit-dun.vercel.app/',icon: faArrowAltCircleRight },
+        {text: 'Video' ,  url:"https://drive.google.com/file/d/1KP44EAi8AURXe0Eqcmj4CM-84rAP9jpd/view?usp=sharing",icon: faFileVideo}
       ]
     },
     {
@@ -47,7 +50,8 @@ function Projects() {
       description: "Weather monitoring app using EJS css and JS.",
       links: [
         { text: 'GitHub', url: 'https://github.com/DanishSofii/Weather-App', icon: faGithub },
-        { text: 'Visit', url: 'https://example.com/link-b',icon: faArrowAltCircleRight }
+        { text: 'Visit', url: 'https://example.com/link-b',icon: faArrowAltCircleRight },
+        {text: 'Video' ,  url:"",icon: faFileVideo}
       ]
     },
     {
@@ -58,6 +62,8 @@ function Projects() {
       links: [
         { text: 'GitHub', url: 'https://github.com/DanishSofii/To-Do-List', icon: faGithub },
         { text: 'Visit', url: 'https://main--tangerine-custard-d73e19.netlify.app/',icon: faArrowAltCircleRight }
+        ,
+        {text: 'Video' ,  url:"",icon: faFileVideo}
       ]
     },
     {
@@ -67,7 +73,8 @@ function Projects() {
       description: "A basic Calculator using HTML, CSS and JS",
       links: [
         { text: 'GitHub', url: 'https://github.com/DanishSofii/Calculator', icon: faGithub },
-        { text: 'Visit', url: 'https://example.com/link-b',icon: faArrowAltCircleRight }
+        { text: 'Visit', url: 'https://example.com/link-b',icon: faArrowAltCircleRight },
+        {text: 'Video' ,  url:"",icon: faFileVideo}
       ]
     },
     // Add more card data as needed
