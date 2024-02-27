@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Card({ imageSrc, title, description, links }) {
   return (
-    <div className="max-w-sm mx-auto bg-white rounded-xl overflow-hidden hover:shadow-lg  mb-10 max-w-[340px] min-h-[360px]">
+    <div className="max-w-sm mx-auto bg-white rounded-xl overflow-hidden hover:shadow-lg  mb-10 max-w-[340px] min-h-[360px] hover:translate-y-2">
       <img className="w-full h-48 object-cover overflow-hidden hover:scale-125 transition-all " src={imageSrc} alt={title} />
       <div className="p-6">
         <h2 className="text-xl font-semibold mb-2">{title}</h2>

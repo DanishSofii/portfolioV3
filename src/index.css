@@ -17,7 +17,7 @@ body {
 
   border-width: 1px; /* Adjust the border width as needed */
   border-style: solid;
-  border-image: linear-gradient(to right, #ff8a00,#01ccff, #e52e71, #006aff); /* Adjust gradient colors */
+  border-image: linear-gradient(to right, #c79256, #3c76c7); /* Adjust gradient colors */
   border-image-slice: 1; /* Make the whole border area covered by the gradient */
 }
 code {

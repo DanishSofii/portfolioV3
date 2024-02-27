@@ -89,7 +89,7 @@ function Projects() {
       <div className="flex justify-center w-5/6 bg-blue-200 h-5/6 p-9 rounded-lg">
         <div className="flex justify-center items-center h-full flex-wrap w-full overflow-y-auto file:">
           {cardDataArray.map((cardData) => (
-            <Card key={cardData.id} {...cardData} />
+            <Card className="" key={cardData.id} {...cardData} />
           ))}
         </div>
       </div>

@@ -40,7 +40,7 @@ function AboutComponent() {
               />
                 </span>
               </h2>
-              <button className=" bg-green-400 h-5 w-[4rem] text-[10px] sm:text-[12px] sm:h-6 rounded-sm outline-none border-none " onClick={downloadResume}>Resume</button>
+              <button className=" bg-transparent border border-solid text-slate-50 h-5 w-[4rem] text-[10px] sm:text-[12px] sm:h-6 rounded-sm outline-none  " onClick={downloadResume}>Resume</button>
             </div>
             <div>
                 <img className="imgbrd h-[20rem] w-[20rem] rounded-[50%] bg-purple-400 bg-opacity-40 hidden md:block lg:block"  src={dpimg} alt="" />
