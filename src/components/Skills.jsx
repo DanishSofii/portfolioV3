@@ -1,4 +1,4 @@
-const skills = ["HTML","CSS","JavaScript","React JS","Node JS","Express JS","MySql","Tailwind","Ejs","Npm","GitHub"]
+const skills = ["HTML","CSS","JavaScript","React JS","Node JS","Express JS","MySql","Tailwind","Ejs","Npm","GitHub","MongoDB"]
 
 function Skills() {
     return (
