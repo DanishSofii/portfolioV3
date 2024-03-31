@@ -1,4 +1,5 @@
 import Card from "./Card";
+import img0 from "../images/img0.webp"
 import img1 from "../images/im1.webp";
 import img2 from "../images/im2.webp";
 import img3 from "../images/im3.webp";
@@ -12,6 +13,17 @@ function Projects() {
   const cardDataArray = [
     {
       id: 1,
+      imageSrc: img0,
+      title: "Connect-US",
+      description: "Live chat app using MERN stack, socket IO and JWT",
+      links: [
+        { text: 'GitHub', url: 'https://github.com/DanishSofii/chat-app', icon: faGithub },
+        { text: 'Visit', url: 'https://connectus-b6mr.onrender.com/login',icon: faArrowAltCircleRight },
+        {text: 'Video' ,  url:"",icon: faFileVideo}
+      ]
+    },
+    {
+      id: 2,
       imageSrc: img1,
       title: "Library Management System",
       description: "LMS (FullStack) built from scratch using EJS, CSS, Express JS , MySql to manage the books in library online.",
@@ -22,7 +34,7 @@ function Projects() {
       ]
     },
     {
-      id: 2,
+      id: 3,
       imageSrc: img6,
       title: "Nebula",
       description: "Blogging website (FullStack) created using React js, Express js, MySql, Tailwind CSS.",
@@ -33,7 +45,7 @@ function Projects() {
       ]
     },
     {   
-      id: 3,
+      id: 4,
       imageSrc: img2,
       title: "Eat n Split",
       description: " Friends can split easily; Created using React JS  ",
@@ -44,7 +56,7 @@ function Projects() {
       ]
     },
     {
-      id: 4,
+      id: 5,
       imageSrc: img3,
       title: "Weather APP",
       description: "Weather monitoring app using EJS css and JS.",
@@ -55,7 +67,7 @@ function Projects() {
       ]
     },
     {
-      id: 5,
+      id: 6,
       imageSrc: img4,
       title: "TO-DO List Master",
       description: "App for managing daily tasks easily with HTML CSS and JS.",
@@ -67,7 +79,7 @@ function Projects() {
       ]
     },
     {
-      id: 6,
+      id: 7,
       imageSrc: img5,
       title: "Calculator",
       description: "A basic Calculator using HTML, CSS and JS",
