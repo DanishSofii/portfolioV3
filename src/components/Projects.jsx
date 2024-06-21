@@ -18,7 +18,7 @@ function Projects() {
       description: "Live chat app using MERN stack, socket IO and JWT",
       links: [
         { text: 'GitHub', url: 'https://github.com/DanishSofii/chat-app', icon: faGithub },
-        { text: 'Visit', url: 'https://connectus-b6mr.onrender.com/login',icon: faArrowAltCircleRight },
+        { text: 'Visit', url: 'https://webx-n6e0.onrender.com',icon: faArrowAltCircleRight },
         {text: 'Video' ,  url:"",icon: faFileVideo}
       ]
     },
