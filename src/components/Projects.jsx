@@ -19,7 +19,7 @@ function Projects() {
       links: [
         { text: 'GitHub', url: 'https://github.com/DanishSofii/chat-app', icon: faGithub },
         { text: 'Visit', url: 'https://webx-n6e0.onrender.com',icon: faArrowAltCircleRight },
-        {text: 'Video' ,  url:"",icon: faFileVideo}
+        {text: 'Video' ,  url:"https://drive.google.com/file/d/1uXQi8AMUcQ3PLebvHAiZCp4coIIhp2-Z/view?usp=sharing",icon: faFileVideo}
       ]
     },
     {
