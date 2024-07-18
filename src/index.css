@@ -24,3 +24,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.resumesBtn{
+  border-radius: 44% 56% 70% 30% / 64% 45% 55% 36% ;
+}
