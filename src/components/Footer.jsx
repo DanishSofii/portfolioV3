@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../images/DBlogo.png';
 
 const Footer = () => {
   return (
